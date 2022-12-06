@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>FROGGER Remastered</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;700&family=Zen+Dots&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body style="margin: 0px 5px 0px 5px;">
+
+    <!-- CABECERA-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand keychainify-checked" href="#"><img src="img/FROGGER.png"
+                        style="max-width:30%; margin-left: 15%;" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor03" style="max-width: 30%;">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active keychainify-checked" href="index.html">Inicio
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link keychainify-checked" href="documentacion.html">Documentacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link keychainify-checked" href="descargas.html">Descargas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link keychainify-checked" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <!-- DOCUMENTACION -->
+    <div class="Documentacion">
+        <!--LEVElS-->
+        <div class="levels">
+            <!--TITULO-->
+            <div class="card border-secondary mb-3" style="margin: 0px 100px 0px 100px">
+                <div class="card-body" style="display: flex; align-items:center; justify-content:center">
+                    <h1 class="card-text" style="font-family:'Zen Dots';">NIVELES</h1>
+                </div>
+            </div>
+            <br>
+            <!--IMAGENES-->
+            <div class="img-game" style="  display: flex;align-items: center;justify-content: center; ">
+                <img src="img/PANTALLA_L1.png" alt="" style="border:5px solid #fcff49; width: 60%;">
+            </div>
+            <br>
+            <div class="img-game" style="  display: flex;align-items: center;justify-content: center; ">
+                <img src="img/PANTALLA_L2.png" alt="" style="border:5px solid #ff0000; width: 60%;">
+            </div>
+            <br>
+            <div class="img-game" style="  display: flex;align-items: center;justify-content: center; ">
+                <img src="img/PANTALLA_L3.png" alt="" style="border:5px solid #ca1dff; width: 60%;">
+            </div>
+
+        </div>
+        <br>
+        <!--ESCENARIO-->
+        <div class="escenario">
+            <!--TIUTLO-->
+            <div class="title-escenario">
+                <div class="card border-dark mb-3" style="margin: 0px 100px 0px 100px">
+                    <div class="card-body" style="display: flex; align-items:center; justify-content:center;">
+                        <h1 class="card-text" style="font-family:'Zen Dots';">ESCENARIO</h1>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--IMAGEN-->
+            <div class="imm-escenario" style="  display: flex;align-items: center;justify-content: center; ">
+                <img src="img/escenario1.png" alt="" style="border:5px solid #e83e8c; width: 60%;">
+            </div>
+            <br>
+            <!--TEXTO-->
+            <div class="texto" style="display: flex; align-items: center; justify-content: center;">
+                <h3 style="font-family: 'Zen Dots'; margin: 0px 50px 0px 50px;">A lo largo del desarrollo, no solo para
+                    interactuar entre los objetos, sino también para acciones
+                    dentro de los mismos objetos se utilizan mensajes, ya que notamos que al extender mucho un mismo
+                    bloque y generar muchas validaciones al mismo tiempo, perdíamos el paralelismo entre los procesos
+                    que se evalúan en los condicionales. Del mismo modo, la utilización de mensajes da un mayor orden y
+                    entendimiento de las acciones de los bloques en cuestión.
+                </h3>
+            </div>
+            <br>
+            <div class="texto" style="display: flex; align-items: center; justify-content: center;">
+                <h3 style="font-family: 'Zen Dots'; margin: 0px 50px 0px 50px;">Por ejemplo se utiliza el mensaje
+                    “Musica_Level2” para que al recibir, reproduzca la música que
+                    pertenece al nivel 2. Se realizó de esta manera ya que al introducir los bloques que ejecutan dicha
+                    acción en el lugar de la emisión del mensaje, este provocaba un bug que no permitía que se avance de
+                    nivel.
+                    Con mensajes se informó a cada objeto si deben o no participar de cada bloque, el menú, Lvl 1, 2, 3,
+                    pantalla de “ganaste” o “perdiste”, etc.
+                </h3>
+            </div>
+            <br>
+            <!--IMAGEN-->
+            <div class="imm-escenario" style="  display: flex;align-items: center;justify-content: center; ">
+                <img src="img/escenario1.png" alt="" style="border:5px solid #e83e8c; width: 60%;">
+            </div>
+            <br>
+            <!--TEXTO-->
+            <div class="texto" style="display: flex; align-items: center; justify-content: center;">
+                <h3 style="font-family: 'Zen Dots'; margin: 0px 50px 0px 50px;">
+                    Para realizar el cambio entre niveles, como este requiere de que se oculten o muestran objetos, se
+                    reinicien variables y clones, se cambie de música, se cambie de escenario o obstáculos, optamos
+                    realizar este evento desde el escenario una vez que termina el nivel, es decir Cont Madriguera Llena
+                    = 6.
+                    Se creó un bloque que es común para todos los niveles, para simplificar las evaluaciones que se
+                    tengan que hacer al recibir el siguiente nivel.
+
+                </h3>
+            </div>
+            <br>
+
+        </div>
+
+        <br>
+        <!--RANITA-->
+        <div class="ranita">
+            <br>
+            <br>
+            <!--TITULO-->
+            <div class="card border-success mb-3" style="margin: 0px 100px 0px 100px">
+                <div class="card-body" style="display: flex; align-items:center; justify-content:center;">
+                    <h1 class="card-text" style="font-family:'Zen Dots';">RANITA</h1>
+                </div>
+            </div>
+            <!--PNG-->
+            <div class="png-ranita">
+                <span style="display:flex; align-items:center; justify-content:center">
+                    <img src="img/Ranita.png" alt="" style="width:10%; margin: 5%;">
+                    <img src="img/Ranita_Espacio.png" alt="" style="width:10%; margin: 5%">
+                </span>
+            </div>
+            <br>
+            <!--IMG-->
+            <div class="imgcode1" style="  display: flex;align-items: center;justify-content: center; ">
+                <img src="img/ranitacode1.png" alt="" style="border:5px solid #e83e8c; width: 60%;">
+                <!--<img src="img/ranitacode2.png" alt="" style="border:10px solid #227fab;">-->
+            </div>
+            <br>
+            <!--TEXTO-->
+            <div class="ranita-text" style="display: flex; align-items: center; justify-content: center;">
+                <h3 style="font-family: 'Zen Dots'; margin: 0px 50px 0px 50px;"> Para realizar el movimiento evaluamos
+                    dos condiciones muy necesarias para restringir el movimiento de la
+                    rana. Se crean tres variables, “Vidas” (que corresponde a la cantidad de vidas de la rana), “Muerto”
+                    (variable que nos permite indicar si la rana tiene o no que moverse y en qué momento) y “En_Aire”
+                    (que
+                    simboliza cuando la rana está cambiando de disfraz).
+                    En todos los casos del movimiento la rana se desplaza 10 unidades en la dirección correspondiente,
+                    realiza la animación y se desplaza 10 unidades más.
+                    . </h3>
+            </div>
+            <br>
+            <!--IMG-->
+            <div class="imgcode2" style="  display: flex;align-items: center;justify-content: center; ">
+                <img src="img/ranitacode2.png" alt="" style="border:5px solid #227fab; width:60%;">
+            </div>
+            <br>
+            <!--TEXTO-->
+            <div class="ranita-text" style="display: flex; align-items: center; justify-content: center;">
+                <h3 style="font-family: 'Zen Dots'; margin: 0px 50px 0px 50px;">
+                    Las colisiones de la ranita se hicieron con mensajes y bloques creados específicamente para su
+                    función, de modo que estos sean llamados solamente cuando
+                    se produce el evento que envía el mensaje. De esta forma no se están efectuando la corroboración de
+                    bloques de manera innecesaria.
+                    Los bloques más redundantes para analizar son los de "Morir_rana" y "Comun_ranita".
+                    <br>"Morir_rana" es un bloque que se ejecuta al realizar las colisiones de la ranita y también
+                    para los cambios de niveles, ya que este bloque lo que efectúa es bloquear el movimiento de la rana.
+                    Este bloque actúa en
+                    conjuntos con una variable llamada "Muerto" y así interactuando con el bloque "Comun_ranita"
+                    <br>
+                    "Comun_ranita" es un bloque que cumple la función de resetear valores de la ranita para su
+                    reutilización en los
+                    3 niveles del juego.
+                </h3>
+            </div>
+        </div>
+
+        <!--VEHICULO-->
+        <br>
+        <div class="vehiculo">
+            <!--TITULO-->
+            <div class="title-vehiculo">
+                <div class="card border-light mb-3" style="margin: 0px 100px 0px 100px">
+                    <div class="card-body" style="display: flex; align-items:center; justify-content:center">
+                        <h1 class="card-text" style="font-family:'Zen Dots';">VEHICULO</h1>
+                    </div>
+                </div>
+            </div>
+            <!--PNG-->
+            <div class="png-vehiculo">
+                <span style="display:flex; align-items:center; justify-content:center">
+                    <img src="img/Auto_blanco.png" alt="" style="width:10%; margin: 5%;">
+                    <img src="img/Auto_rosa.png" alt="" style="width:10%; margin: 5%;">
+                    <img src="img/Camion_Blanco.png" alt="" style="width:10%; margin: 5%;">
+                    <img src="img/Camion_Pepsi.png" alt="" style="width:10%; margin: 5%;">
+                    <img src="img/Moto_Negra.png" alt="" style="width:10%; margin: 5%;">
+                </span>
+            </div>
+            <!--ETIQUETA-->
+            <div class="etiqueta-vehiculo">
+                <div class="alert alert-dismissible alert-warning"
+                    style="margin: 0px 170px 0px 170px; border-radius:25px;">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <h4 class="alert-heading">¿Sabias que son los clones en Scratch?</h4>
+                    <p class="mb-0"> Los clones son una funcionalidad de Scratch que nos permite crear indefinidas
+                        copias de un objeto y que cada una de ellas se comporte de forma diferente, como queramos en
+                        cada momento. <a
+                            href="https://bananacoders.com/guias-tutoriales/clones-en-scratch-tutorial-hormiguero/#:~:text=Una%20caracter%C3%ADstica%20algo%20avanzada%20y,nosotros%20queramos%20en%20cada%20momento.">Recurso
+                            "Clones"</a> </p>
+                </div>
+            </div>
+            <br>
+            <div class="texto-vehiculo">
+                <h3 style="font-family: 'Zen Dots'; margin: 0px 50px 0px 50px;">
+                    Decidimos que en el recorrido de la calle, los distintos vehículos que salgan no sean iguales, para
+                    ello creamos 6 modelos de autos, 2 camiones y una moto para que pase entre los autos para aumentar
+                    la dificultad.
+                    <br>
+                    El verdadero objeto “Vehículo” es uno solo, permanece oculto, los verdaderos objetos que
+                    visualizamos y que pueden matar a la ranita, son clones, que mediante un algoritmo, este adopta un
+                    color (en las posiciones que corresponden a los autos), un tipo de camión (en la posición que
+                    corresponde a los camiones) o que pase la moto, decidiendo qué disfraz corresponde.
+
+                </h3>
+                <br>
+                <!--IMG-->
+                <div class="img-code-vehiculo" style="display: flex;align-items: center;justify-content: center;">
+                    <img src="img/color_auto.png" alt="" style="border:5px solid #fcff49; width:60%;">
+                </div>
+                <br>
+                <h3 style="font-family: 'Zen Dots'; margin: 0px 50px 0px 50px;">
+                    Color_auto es un algoritmo que decide qué color será el auto esta por salir. El bloque color
+                    adquiere valor en un bloque que agregamos para hacer surgir los vehículos en la posición inicial
+                    correspondiente, veremos esto luego de un comentario
+                    <br>
+                    Para el desarrollo del algoritmo Color_auto descubrimos la falta de una estructura selectiva
+                    múltiple en Scratch, entendemos que esto se debe a que no es precisamente un lenguaje de
+                    programación. Sin embargo hay formas más correctas de realizar este algoritmo, pero para la
+                    realización de este fin sería de mucha más utilidad.
+                </h3>
+            </div>
+        </div>
+</body>
+
+<!--FOOTER-->
+<footer>
+    </div style="margin-bottom=0px">
+    <div class="card border-secondary mb-3" style="margin-top: 5%;">
+        <div class="card-body" style="background-color: rgba(255, 59, 196, 0.596);border: 1px solid #fff;">
+            <div style="display:flex; align-items:center; justify-content: center; ">
+                <h4 class="card-title" style="font-family:'Zen Dots';">Nicolas D. Alfonsin Dev</h4>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
